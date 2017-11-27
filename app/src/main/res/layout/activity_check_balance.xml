@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.ethminer.CheckBalanceActivity">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBackToMain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="Назад"
+        />
+
+    <TextView
+        android:id="@+id/tv_ur_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш баланс"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/tv_ur_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.000000000"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40dp"
+        />
+
+</RelativeLayout>

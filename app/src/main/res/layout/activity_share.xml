@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.ethminer.ShareActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickBackMain"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поделиться промокодом. Приложение, активированное промокодом получит на свой баланс 0.0035 ETH."
+        android:layout_above="@+id/btn_send_promo"
+        />
+
+    <Button
+        android:id="@+id/btn_send_promo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicksendPromo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Отправить"
+        />
+
+</RelativeLayout>
