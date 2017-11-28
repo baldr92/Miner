@@ -21,6 +21,7 @@
         android:id="@+id/tv_ur_wallet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Ваш кошелек ETH"
         android:layout_below="@id/et_wallet"
         android:layout_centerHorizontal="true"
         />
@@ -34,12 +35,7 @@
         android:layout_centerHorizontal="true"
         />
 
-    <Button
-        android:id="@+id/btn_set_wallet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Подтвердить"
-        android:onClick="onClickSetWallet"
-        />
+
+
 
 </RelativeLayout>
