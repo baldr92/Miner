@@ -18,6 +18,27 @@
         />
 
     <TextView
+        android:id="@+id/tv_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Стоимость 1 ETH на "
+        android:layout_above="@+id/usd_rate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_cost"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/tv_cost"
+        android:layout_centerVertical="true"
+        android:text="01.01.2000"
+        />
+
+
+    <TextView
         android:id="@+id/usd_rate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,12 +49,113 @@
         />
 
     <TextView
+        android:id="@+id/eur_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EUR"
+        android:layout_below="@+id/usd_rate"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/eur_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/eur_text"
+        android:text="0.0000"
+        android:layout_below="@+id/usd_rate"
+        />
+
+    <TextView
+        android:id="@+id/gbp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GBP"
+        android:layout_below="@+id/eur_text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/gbp_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/gbp_text"
+        android:text="0.0000"
+        android:layout_below="@+id/eur_rate"
+        />
+
+    <TextView
         android:id="@+id/usd_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="USD"
         android:layout_centerVertical="true"
         android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/chf_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHF"
+        android:layout_below="@+id/gbp_text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/chf_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/chf_text"
+        android:text="0.0000"
+        android:layout_below="@+id/gbp_rate"
+        />
+
+
+    <TextView
+        android:id="@+id/cny_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNY"
+        android:layout_below="@+id/chf_text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/cny_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/cny_text"
+        android:layout_below="@+id/chf_rate"
+        android:text="0.0000"
+        />
+
+    <TextView
+        android:id="@+id/jpy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JPY"
+        android:layout_below="@+id/cny_text"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/jpy_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/jpy_text"
+        android:layout_below="@+id/cny_rate"
+        android:text="0.0000"
         />
 
 </RelativeLayout>
