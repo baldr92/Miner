@@ -25,9 +25,7 @@ public class SettingsActivity extends AppCompatActivity {
 
     }
 
-    public void onClickSetWallet() {
 
-    }
 
     protected void onDestroy(){
         super.onDestroy();

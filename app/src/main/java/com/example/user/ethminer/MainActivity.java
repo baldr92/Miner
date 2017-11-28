@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     ToggleButton toggleButton;
     TextView tv_button;
     String balance;
+    public int state_miner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
     public void onCheckedChanged(CompoundButton button, boolean isChecked){
         if(isChecked) {
+            Intent intent = new Intent(MainActivity.this, CheckBalanceActivity.class);
 
         } else {
 
